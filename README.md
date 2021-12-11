@@ -4,8 +4,8 @@
 # First Step  
 #Create a new repo call name newrepo at git hub.
 #mkdir a newrepo directory at visual studio cmd terminal
-#cd to newrepot direcoty
-#echo " readmefile" >> README.md
+#cd to newrepot direcoty /n
+#echo " readmefile" >> README.md /n
 #git init
 #git add README.md
 #git add file1.txt
