@@ -13,5 +13,10 @@
 #git commit -m " commit"
 #git branch -M man 
 #git remote add origin git@github.com:jasonlow34/newrepo.git
-#git push -u origin main
+#git push -u origin main /n 
 
+
+At command prompt type below command to generate ssh key. use default directory and key in your passphase accordingly. 
+ssh-keygen -t rsa
+Get the content of C:\Users\llow/.ssh/id_rsa.pub
+insert it into github settings SSH config. 
