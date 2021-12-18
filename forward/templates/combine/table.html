@@ -1,0 +1,11 @@
+{% extends "combine/base.html" %}
+{% block body_block %}
+<div class="container-fluid">
+    <center class="row">
+        <h2>Our implementation of Django tables</h2>
+    </center>
+    <!-- //The autoescape would be a protection against cross site scripting, not sql injection (which you need to make sure your inputs are scrubbed). -->
+    {% load django_tables2 %}
+    {% render_table table %}   
+</div>
+{% endblock %}
